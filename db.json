@@ -1,7 +1,44 @@
 {
-    "users": [
-        {"id": 1, "name": "Myra"}
-    ],
-    "albums": [],
-    "photos": []
+  "users": [
+    {
+      "id": "893f",
+      "name": "Jennifer Jacobi"
+    },
+    {
+      "id": "33a0",
+      "name": "Oliver Beatty"
+    },
+    {
+      "id": "e344",
+      "name": "Sonya Cronin Jr."
+    },
+    {
+      "id": "b131",
+      "name": "Stacy VonRueden"
+    },
+    {
+      "id": "84fa",
+      "name": "Gretchen Kuhic"
+    },
+    {
+      "id": "1b0e",
+      "name": "Heidi Rath DVM"
+    }
+  ],
+  "albums": [
+    {
+      "id": 10,
+      "title": "Hiking Trip",
+      "userId": "893f"
+    },
+    {
+      "id": "35c3",
+      "title": "Modern Fresh Cheese"
+    },
+    {
+      "id": "fe0f",
+      "title": "Handmade Frozen Pizza"
+    }
+  ],
+  "photos": []
 }

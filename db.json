@@ -27,11 +27,6 @@
   ],
   "albums": [
     {
-      "id": 10,
-      "title": "Hiking Trip",
-      "userId": "893f"
-    },
-    {
       "id": "35c3",
       "title": "Modern Fresh Cheese"
     },

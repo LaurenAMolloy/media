@@ -16,7 +16,7 @@ export const store = configureStore({
 });
 
 //TEMP
-window.store = store;
+//window.store = store;
 
 
 setupListeners(store.dispatch)
@@ -24,4 +24,4 @@ setupListeners(store.dispatch)
 export * from './thunks/fetchUser';
 export * from './thunks/addUser';
 export * from './thunks/removeUser';
-export { useFetchAlbumsQuery, useAddAlbumMutation } from './apis/albumsApi'
+export { useFetchAlbumsQuery, useAddAlbumMutation, useRemoveAlbumsMutation } from './apis/albumsApi'

@@ -24,9 +24,9 @@ const albumsApi = createApi({
             removeAlbums: builder.mutation({
                 //Do we need to add an user?
                 //NO We jsut need the albums id
-                invalidatesTags: (results, error, {album, user}) => {
+                invalidatesTags: (results, error, album) => {
                     console.log(album);
-                    return [{ type: 'Album', id: album.userId }];
+                    return [{ type: 'Album', id: album.id }];
                 },
                 query: (album) => {
                     return {
@@ -63,7 +63,8 @@ const albumsApi = createApi({
                         return { type: 'Album', id: album.id}
                     });
                     //This represents list of albums
-                    tags.push({ type: 'UsersAlbums', id: user.id})
+                    tags.push({ type: 'UsersAlbums', id: user.id});
+                    return tags;
                 },
                 //request config
                 query: (user) => {

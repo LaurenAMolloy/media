@@ -1,3 +1,4 @@
+import PhotosList from "./PhotosList";
 import { GoTrashcan } from "react-icons/go"
 import { useRemoveAlbumsMutation } from "../store"
 import React from 'react'
@@ -9,7 +10,7 @@ export default function AlbumsListItem({ album }) {
 
     const handleRemoveAlbum = () => {
         //provide the album and the user to the end point!
-        removeAlbum({ album, user });
+        removeAlbum(album);
     };
 
     const header = (
@@ -22,7 +23,7 @@ export default function AlbumsListItem({ album }) {
     ) 
     return (
         <ExpandablePanel key={album.id} header={header}>
-            List of Photo's in the Album
+            <PhotosList album={album} />
         </ExpandablePanel>
     )
 }

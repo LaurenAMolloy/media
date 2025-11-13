@@ -27,13 +27,34 @@
   ],
   "albums": [
     {
-      "id": "7134",
-      "title": "Electronic Concrete Sausages"
+      "id": "d515",
+      "title": "Ergonomic Soft Mouse"
     },
     {
-      "id": "0d03",
-      "title": "Sleek Concrete Hat"
+      "id": "957b",
+      "title": "Luxurious Frozen Cheese"
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "id": "cc16",
+      "albumId": "d515",
+      "url": "https://loremflickr.com/150/150/abstract?lock=57345"
+    },
+    {
+      "id": "9923",
+      "albumId": "d515",
+      "url": "https://loremflickr.com/150/150/abstract?lock=82575"
+    },
+    {
+      "id": "04f1",
+      "albumId": "d515",
+      "url": "https://loremflickr.com/150/150/abstract?lock=77299"
+    },
+    {
+      "id": "bf8b",
+      "albumId": "d515",
+      "url": "https://loremflickr.com/150/150/abstract?lock=94740"
+    }
+  ]
 }

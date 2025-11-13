@@ -8,7 +8,8 @@ export default function AlbumsListItem({ album }) {
     const [ removeAlbum, results ] = useRemoveAlbumsMutation();
 
     const handleRemoveAlbum = () => {
-        removeAlbum(album);
+        //provide the album and the user to the end point!
+        removeAlbum({ album, user });
     };
 
     const header = (
